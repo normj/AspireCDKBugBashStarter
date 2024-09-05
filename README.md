@@ -4,7 +4,7 @@ This repository is for testing the user experience of using CDK with Aspire. You
 
 ## Global.json issues
 
-If you have .NET 9 preview installed it can cause issues with getting the Aspire workload setup correctly. In the repository there is a `global.json` to lock the .NET SDK version to `8.0.400`. If you have a different .NET SDK version installed update this file to that version. Or if you don't have .NET 9 preview installed you can remove the `global.json` file.
+If you have .NET 9 preview installed it can cause issues with getting the Aspire workload setup correctly. In the repository there is a `global.json` to lock the .NET SDK version to `8.0.400`. If you have a different .NET SDK version installed update this file to that version. Or if you don't have .NET 9 preview installed you can remove the `global.json` file. You can find you are installed .NET SDK versions by running `dotnet --list-sdks` command.
 
 ## Aspire setup
 
